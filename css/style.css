@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box.fixed {
+    background-color: tomato;
+    position: fixed;
+    right: 20px;
+    top: 40px;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+.box.fixed:hover {
+    background-color: blueviolet;
+    border-radius: 28px;
+
+}
+
+.boxdos {
+    background-color: tomato;
+    position: fixed;
+    right: 325px;
+    top: 40px;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    
+}
+
+.boxdos:hover {
+    background-color: blueviolet;
+    border-radius: 28px;
+
+}
+.boxtres {
+    background-color: tomato;
+    position: fixed;
+    right: 625px;
+    top: 40px;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    
+}
+
+.boxtres:hover {
+    background-color: blueviolet;
+    border-radius: 28px;
+
+}
+
+.boxcuatro {
+    background-color: tomato;
+    position: fixed;
+    right: 925px;
+    top: 40px;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    
+}
+
+.boxcuatro:hover {
+    background-color: blueviolet;
+    border-radius: 28px;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura del contenedor según tus necesidades */
+  }
+.boxmodel {
+    background-color: slategray;
+    width: 100%;
+    height: 400px;
+    /* como establcer los bordes */
+    border: 5px solid burlywood;
+    
+}
+
+iframe.center {
+    display: block;
+    margin: 0 auto;
+  }
+
+  
+
+p.colum {
+  float: right;
+  width: 50%;
+}
+
+iframe.cont {
+    float: right;
+
+}
+
+p.columdos {
+    float: left;
+    width: 50%;
+}
+
+.boxseis {
+    background-color: tomato;
+    position: fixed;
+    right: 25px;
+    top: 10px;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    
+}
+
+.boxseis:hover {
+    background-color: blueviolet;
+    border-radius: 28px;
+}
+h1.cent {
+    text-align: center;
+}
